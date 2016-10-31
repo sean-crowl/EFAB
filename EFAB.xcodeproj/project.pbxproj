@@ -14,6 +14,7 @@
 		2EC090DB1DC793C300BB190B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC090DA1DC793C300BB190B /* Assets.xcassets */; };
 		2EC090DE1DC793C300BB190B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC090DC1DC793C300BB190B /* LaunchScreen.storyboard */; };
 		2EE111AE1DC7BB9D004ED0A1 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE111AD1DC7BB9D004ED0A1 /* NetworkModel.swift */; };
+		2EE111B01DC7BEBF004ED0A1 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE111AF1DC7BEBF004ED0A1 /* WebServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2EC090DD1DC793C300BB190B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EC090DF1DC793C300BB190B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EE111AD1DC7BB9D004ED0A1 /* NetworkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkModel.swift; path = Networking/NetworkModel.swift; sourceTree = "<group>"; };
+		2EE111AF1DC7BEBF004ED0A1 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
 		3B1768D69C703507D8D68324 /* Pods-EFAB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFAB.release.xcconfig"; path = "Pods/Target Support Files/Pods-EFAB/Pods-EFAB.release.xcconfig"; sourceTree = "<group>"; };
 		3DDA05E32F69EEA6A81E6549 /* Pods-EFAB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFAB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EFAB/Pods-EFAB.debug.xcconfig"; sourceTree = "<group>"; };
 		72DC42CFE688556D85D9C2F6 /* Pods_EFAB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EFAB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				2EE111AD1DC7BB9D004ED0A1 /* NetworkModel.swift */,
+				2EE111AF1DC7BEBF004ED0A1 /* WebServices.swift */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			files = (
 				2EE111AE1DC7BB9D004ED0A1 /* NetworkModel.swift in Sources */,
 				2EC090D61DC793C300BB190B /* ViewController.swift in Sources */,
+				2EE111B01DC7BEBF004ED0A1 /* WebServices.swift in Sources */,
 				2EC090D41DC793C300BB190B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
