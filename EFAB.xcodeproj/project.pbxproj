@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26DA4D941FEA70F122AA49CF /* Pods_EFAB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DC42CFE688556D85D9C2F6 /* Pods_EFAB.framework */; };
+		2EC090D41DC793C300BB190B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC090D31DC793C300BB190B /* AppDelegate.swift */; };
+		2EC090D61DC793C300BB190B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC090D51DC793C300BB190B /* ViewController.swift */; };
+		2EC090D91DC793C300BB190B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC090D71DC793C300BB190B /* Main.storyboard */; };
+		2EC090DB1DC793C300BB190B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC090DA1DC793C300BB190B /* Assets.xcassets */; };
+		2EC090DE1DC793C300BB190B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC090DC1DC793C300BB190B /* LaunchScreen.storyboard */; };
+		2EE111AE1DC7BB9D004ED0A1 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE111AD1DC7BB9D004ED0A1 /* NetworkModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EC090D01DC793C300BB190B /* EFAB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFAB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC090D31DC793C300BB190B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EC090D51DC793C300BB190B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EC090D81DC793C300BB190B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EC090DA1DC793C300BB190B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EC090DD1DC793C300BB190B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EC090DF1DC793C300BB190B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE111AD1DC7BB9D004ED0A1 /* NetworkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkModel.swift; path = Networking/NetworkModel.swift; sourceTree = "<group>"; };
+		3B1768D69C703507D8D68324 /* Pods-EFAB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFAB.release.xcconfig"; path = "Pods/Target Support Files/Pods-EFAB/Pods-EFAB.release.xcconfig"; sourceTree = "<group>"; };
+		3DDA05E32F69EEA6A81E6549 /* Pods-EFAB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFAB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EFAB/Pods-EFAB.debug.xcconfig"; sourceTree = "<group>"; };
+		72DC42CFE688556D85D9C2F6 /* Pods_EFAB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EFAB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EC090CD1DC793C300BB190B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DA4D941FEA70F122AA49CF /* Pods_EFAB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EC090C71DC793C300BB190B = {
+			isa = PBXGroup;
+			children = (
+				2EE111AC1DC7BB74004ED0A1 /* Networking */,
+				2EC090D21DC793C300BB190B /* EFAB */,
+				2EC090D11DC793C300BB190B /* Products */,
+				83E14BEA09339377DF55CDED /* Pods */,
+				8969052792A01014B1CF0BBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2EC090D11DC793C300BB190B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EC090D01DC793C300BB190B /* EFAB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EC090D21DC793C300BB190B /* EFAB */ = {
+			isa = PBXGroup;
+			children = (
+				2EC090D31DC793C300BB190B /* AppDelegate.swift */,
+				2EC090D51DC793C300BB190B /* ViewController.swift */,
+				2EC090D71DC793C300BB190B /* Main.storyboard */,
+				2EC090DA1DC793C300BB190B /* Assets.xcassets */,
+				2EC090DC1DC793C300BB190B /* LaunchScreen.storyboard */,
+				2EC090DF1DC793C300BB190B /* Info.plist */,
+			);
+			path = EFAB;
+			sourceTree = "<group>";
+		};
+		2EE111AC1DC7BB74004ED0A1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2EE111AD1DC7BB9D004ED0A1 /* NetworkModel.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		83E14BEA09339377DF55CDED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DDA05E32F69EEA6A81E6549 /* Pods-EFAB.debug.xcconfig */,
+				3B1768D69C703507D8D68324 /* Pods-EFAB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8969052792A01014B1CF0BBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72DC42CFE688556D85D9C2F6 /* Pods_EFAB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EC090CF1DC793C300BB190B /* EFAB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EC090E21DC793C300BB190B /* Build configuration list for PBXNativeTarget "EFAB" */;
+			buildPhases = (
+				35B68BD938D777ACF6F6ED99 /* [CP] Check Pods Manifest.lock */,
+				2EC090CC1DC793C300BB190B /* Sources */,
+				2EC090CD1DC793C300BB190B /* Frameworks */,
+				2EC090CE1DC793C300BB190B /* Resources */,
+				CB5A540BE358A75862768EB6 /* [CP] Embed Pods Frameworks */,
+				9DDE9F14CA3AADFEB0209CF6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EFAB;
+			productName = EFAB;
+			productReference = 2EC090D01DC793C300BB190B /* EFAB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EC090C81DC793C300BB190B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Interapt;
+				TargetAttributes = {
+					2EC090CF1DC793C300BB190B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2EC090CB1DC793C300BB190B /* Build configuration list for PBXProject "EFAB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EC090C71DC793C300BB190B;
+			productRefGroup = 2EC090D11DC793C300BB190B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EC090CF1DC793C300BB190B /* EFAB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EC090CE1DC793C300BB190B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC090DE1DC793C300BB190B /* LaunchScreen.storyboard in Resources */,
+				2EC090DB1DC793C300BB190B /* Assets.xcassets in Resources */,
+				2EC090D91DC793C300BB190B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35B68BD938D777ACF6F6ED99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DDE9F14CA3AADFEB0209CF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EFAB/Pods-EFAB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB5A540BE358A75862768EB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EFAB/Pods-EFAB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EC090CC1DC793C300BB190B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE111AE1DC7BB9D004ED0A1 /* NetworkModel.swift in Sources */,
+				2EC090D61DC793C300BB190B /* ViewController.swift in Sources */,
+				2EC090D41DC793C300BB190B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EC090D71DC793C300BB190B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EC090D81DC793C300BB190B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EC090DC1DC793C300BB190B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EC090DD1DC793C300BB190B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EC090E01DC793C300BB190B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EC090E11DC793C300BB190B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EC090E31DC793C300BB190B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DDA05E32F69EEA6A81E6549 /* Pods-EFAB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EFAB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.interapt.EFAB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2EC090E41DC793C300BB190B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B1768D69C703507D8D68324 /* Pods-EFAB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EFAB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.interapt.EFAB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EC090CB1DC793C300BB190B /* Build configuration list for PBXProject "EFAB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC090E01DC793C300BB190B /* Debug */,
+				2EC090E11DC793C300BB190B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EC090E21DC793C300BB190B /* Build configuration list for PBXNativeTarget "EFAB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC090E31DC793C300BB190B /* Debug */,
+				2EC090E41DC793C300BB190B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EC090C81DC793C300BB190B /* Project object */;
+}
