@@ -15,6 +15,8 @@
 		2EC090DE1DC793C300BB190B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC090DC1DC793C300BB190B /* LaunchScreen.storyboard */; };
 		2EE111AE1DC7BB9D004ED0A1 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE111AD1DC7BB9D004ED0A1 /* NetworkModel.swift */; };
 		2EE111B01DC7BEBF004ED0A1 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE111AF1DC7BEBF004ED0A1 /* WebServices.swift */; };
+		2EE111B31DC7C88F004ED0A1 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE111B21DC7C88F004ED0A1 /* Test.swift */; };
+		2EE111BC1DC7CCB9004ED0A1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE111BB1DC7CCB9004ED0A1 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		2EC090DF1DC793C300BB190B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EE111AD1DC7BB9D004ED0A1 /* NetworkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkModel.swift; path = Networking/NetworkModel.swift; sourceTree = "<group>"; };
 		2EE111AF1DC7BEBF004ED0A1 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		2EE111B21DC7C88F004ED0A1 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Test.swift; path = Models/Test.swift; sourceTree = "<group>"; };
+		2EE111BB1DC7CCB9004ED0A1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Components/Constants.swift; sourceTree = "<group>"; };
 		3B1768D69C703507D8D68324 /* Pods-EFAB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFAB.release.xcconfig"; path = "Pods/Target Support Files/Pods-EFAB/Pods-EFAB.release.xcconfig"; sourceTree = "<group>"; };
 		3DDA05E32F69EEA6A81E6549 /* Pods-EFAB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFAB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EFAB/Pods-EFAB.debug.xcconfig"; sourceTree = "<group>"; };
 		72DC42CFE688556D85D9C2F6 /* Pods_EFAB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EFAB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +51,8 @@
 		2EC090C71DC793C300BB190B = {
 			isa = PBXGroup;
 			children = (
+				2EE111BA1DC7CC9C004ED0A1 /* Components */,
+				2EE111B11DC7C868004ED0A1 /* Models */,
 				2EE111AC1DC7BB74004ED0A1 /* Networking */,
 				2EC090D21DC793C300BB190B /* EFAB */,
 				2EC090D11DC793C300BB190B /* Products */,
@@ -83,6 +89,22 @@
 				2EE111AF1DC7BEBF004ED0A1 /* WebServices.swift */,
 			);
 			name = Networking;
+			sourceTree = "<group>";
+		};
+		2EE111B11DC7C868004ED0A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2EE111B21DC7C88F004ED0A1 /* Test.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2EE111BA1DC7CC9C004ED0A1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2EE111BB1DC7CCB9004ED0A1 /* Constants.swift */,
+			);
+			name = Components;
 			sourceTree = "<group>";
 		};
 		83E14BEA09339377DF55CDED /* Pods */ = {
@@ -227,8 +249,10 @@
 			files = (
 				2EE111AE1DC7BB9D004ED0A1 /* NetworkModel.swift in Sources */,
 				2EC090D61DC793C300BB190B /* ViewController.swift in Sources */,
+				2EE111B31DC7C88F004ED0A1 /* Test.swift in Sources */,
 				2EE111B01DC7BEBF004ED0A1 /* WebServices.swift in Sources */,
 				2EC090D41DC793C300BB190B /* AppDelegate.swift in Sources */,
+				2EE111BC1DC7CCB9004ED0A1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
