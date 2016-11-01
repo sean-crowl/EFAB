@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		26DA4D941FEA70F122AA49CF /* Pods_EFAB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DC42CFE688556D85D9C2F6 /* Pods_EFAB.framework */; };
 		2E5780DC1DC90A0F00B5397B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5780DB1DC90A0F00B5397B /* MapKit.framework */; };
+		2E5780DF1DC9211500B5397B /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5780DE1DC9211500B5397B /* Login.storyboard */; };
+		2E5780E21DC92E8600B5397B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5780E11DC92E8600B5397B /* LoginViewController.swift */; };
+		2E5780E41DC92F1400B5397B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5780E31DC92F1400B5397B /* RegisterViewController.swift */; };
+		2E5780E61DC92F2100B5397B /* BudgetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5780E51DC92F2100B5397B /* BudgetListViewController.swift */; };
 		2EC090D41DC793C300BB190B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC090D31DC793C300BB190B /* AppDelegate.swift */; };
 		2EC090D61DC793C300BB190B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC090D51DC793C300BB190B /* ViewController.swift */; };
 		2EC090D91DC793C300BB190B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC090D71DC793C300BB190B /* Main.storyboard */; };
@@ -24,6 +28,10 @@
 /* Begin PBXFileReference section */
 		2E5780DA1DC909DA00B5397B /* EFAB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EFAB.entitlements; sourceTree = "<group>"; };
 		2E5780DB1DC90A0F00B5397B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2E5780DE1DC9211500B5397B /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Storyboards/Login.storyboard; sourceTree = "<group>"; };
+		2E5780E11DC92E8600B5397B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "View Controllers/LoginViewController.swift"; sourceTree = "<group>"; };
+		2E5780E31DC92F1400B5397B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = "View Controllers/RegisterViewController.swift"; sourceTree = "<group>"; };
+		2E5780E51DC92F2100B5397B /* BudgetListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BudgetListViewController.swift; path = "View Controllers/BudgetListViewController.swift"; sourceTree = "<group>"; };
 		2EC090D01DC793C300BB190B /* EFAB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFAB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC090D31DC793C300BB190B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EC090D51DC793C300BB190B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,9 +63,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E5780DD1DC9202A00B5397B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2EC090D71DC793C300BB190B /* Main.storyboard */,
+				2E5780DE1DC9211500B5397B /* Login.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		2E5780E01DC92E4B00B5397B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E5780E11DC92E8600B5397B /* LoginViewController.swift */,
+				2E5780E31DC92F1400B5397B /* RegisterViewController.swift */,
+				2E5780E51DC92F2100B5397B /* BudgetListViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		2EC090C71DC793C300BB190B = {
 			isa = PBXGroup;
 			children = (
+				2E5780E01DC92E4B00B5397B /* View Controllers */,
+				2E5780DD1DC9202A00B5397B /* Storyboards */,
 				2EE111BA1DC7CC9C004ED0A1 /* Components */,
 				2EE111B11DC7C868004ED0A1 /* Models */,
 				2EE111AC1DC7BB74004ED0A1 /* Networking */,
@@ -83,7 +112,6 @@
 				2E5780DA1DC909DA00B5397B /* EFAB.entitlements */,
 				2EC090D31DC793C300BB190B /* AppDelegate.swift */,
 				2EC090D51DC793C300BB190B /* ViewController.swift */,
-				2EC090D71DC793C300BB190B /* Main.storyboard */,
 				2EC090DA1DC793C300BB190B /* Assets.xcassets */,
 				2EC090DC1DC793C300BB190B /* LaunchScreen.storyboard */,
 				2EC090DF1DC793C300BB190B /* Info.plist */,
@@ -207,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E5780DF1DC9211500B5397B /* Login.storyboard in Resources */,
 				2EC090DE1DC793C300BB190B /* LaunchScreen.storyboard in Resources */,
 				2EC090DB1DC793C300BB190B /* Assets.xcassets in Resources */,
 				2EC090D91DC793C300BB190B /* Main.storyboard in Resources */,
@@ -268,13 +297,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E5780E41DC92F1400B5397B /* RegisterViewController.swift in Sources */,
 				2EE111AE1DC7BB9D004ED0A1 /* NetworkModel.swift in Sources */,
 				2EC090D61DC793C300BB190B /* ViewController.swift in Sources */,
 				2EDD901F1DC8D5E8000448F4 /* WebServices.swift in Sources */,
 				2EE111B31DC7C88F004ED0A1 /* Test.swift in Sources */,
+				2E5780E21DC92E8600B5397B /* LoginViewController.swift in Sources */,
 				2EDD901D1DC8D596000448F4 /* WebServicesExtension.swift in Sources */,
 				2EC090D41DC793C300BB190B /* AppDelegate.swift in Sources */,
 				2EE111BC1DC7CCB9004ED0A1 /* Constants.swift in Sources */,
+				2E5780E61DC92F2100B5397B /* BudgetListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +319,7 @@
 				2EC090D81DC793C300BB190B /* Base */,
 			);
 			name = Main.storyboard;
+			path = EFAB;
 			sourceTree = "<group>";
 		};
 		2EC090DC1DC793C300BB190B /* LaunchScreen.storyboard */ = {
