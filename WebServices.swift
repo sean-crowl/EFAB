@@ -10,6 +10,7 @@ import Foundation
 import Alamofire
 import Freddy
 
+// Central router to create URLRequestConvertible requests
 class WebServices: NSObject {
     
     // Singleton
