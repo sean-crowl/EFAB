@@ -17,16 +17,24 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let test = Test()
         
-        print("starting call")
         WebServices.shared.getObject(test) { (object, error) in
-            print("call returned")
             if let object = object {
                 print(object.description())
             } else {
                 print (error ?? Constants.JSON.unknownError)
             }
+}
+
+    // get many posts
+    let getPostsTest = Test()
+
+    WebServices.shared.getObjects(getPostsTest) { (objects, error) in
+        if let objects = objects {
+            print ("got \(objects.count) items")
+        } else {
+            print("get posts failed")
         }
-        print("call made")
-    }
-    
+        
+}
+}
 }
