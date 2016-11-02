@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		26DA4D941FEA70F122AA49CF /* Pods_EFAB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DC42CFE688556D85D9C2F6 /* Pods_EFAB.framework */; };
+		2E5497EE1DCA224A0049E089 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5497ED1DCA224A0049E089 /* User.swift */; };
 		2E5780DC1DC90A0F00B5397B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5780DB1DC90A0F00B5397B /* MapKit.framework */; };
 		2E5780DF1DC9211500B5397B /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5780DE1DC9211500B5397B /* Login.storyboard */; };
 		2E5780E21DC92E8600B5397B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5780E11DC92E8600B5397B /* LoginViewController.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E5497ED1DCA224A0049E089 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
 		2E5780DA1DC909DA00B5397B /* EFAB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EFAB.entitlements; sourceTree = "<group>"; };
 		2E5780DB1DC90A0F00B5397B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2E5780DE1DC9211500B5397B /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Storyboards/Login.storyboard; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				2EE111B21DC7C88F004ED0A1 /* Test.swift */,
+				2E5497ED1DCA224A0049E089 /* User.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				2EC090D41DC793C300BB190B /* AppDelegate.swift in Sources */,
 				2EE111BC1DC7CCB9004ED0A1 /* Constants.swift in Sources */,
 				2E5780E61DC92F2100B5397B /* BudgetListViewController.swift in Sources */,
+				2E5497EE1DCA224A0049E089 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
