@@ -115,4 +115,18 @@ extension WebServices {
         
         completion(objects, errorString)
     }
+    
+    func authUser<T: NetworkModel>(_ user: T, completion:@escaping (_ user: T?, _ error: String?) -> ()) {
+        request(WebServices.shared.baseURL + user.path(), method: user.method(), parameters: user.toDictionary(), encoding: URLEncoding.default)
+            .responseJSON { (response) in
+                WebServices.parseResponseObject(response: response, completion: completion)
+        }
+    }
+    
+    func registerUser<T: NetworkModel>(_ user: T, completion:@escaping (_ user: T?, _ error: String?) -> ()) {
+        request(WebServices.shared.baseURL + user.path(), method: user.method(), parameters: user.toDictionary(), encoding: URLEncoding.default)
+            .responseJSON { (response) in
+                WebServices.parseResponseObject(response: response, completion: completion)
+        }
+    }
 }
