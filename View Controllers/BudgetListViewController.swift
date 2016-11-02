@@ -41,11 +41,16 @@ class BudgetListViewController: UIViewController {
     }
     
     @IBAction func backTapped(_ sender: Any) {
+        print("Back tapped")
     }
     
     @IBAction func forwardTapped(_ sender: Any) {
+        print("Forward tapped")
     }
     
+    @IBAction func timePeriodChanged(_ sender: Any) {
+        print("Period changed")
+    }
     
     
     /*
