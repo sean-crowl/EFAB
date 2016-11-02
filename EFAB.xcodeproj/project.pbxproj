@@ -17,6 +17,7 @@
 		2E5780E21DC92E8600B5397B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5780E11DC92E8600B5397B /* LoginViewController.swift */; };
 		2E5780E41DC92F1400B5397B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5780E31DC92F1400B5397B /* RegisterViewController.swift */; };
 		2E5780E61DC92F2100B5397B /* BudgetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5780E51DC92F2100B5397B /* BudgetListViewController.swift */; };
+		2E6522D21DCA806500CF5705 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6522D11DCA806500CF5705 /* Category.swift */; };
 		2EC090D41DC793C300BB190B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC090D31DC793C300BB190B /* AppDelegate.swift */; };
 		2EC090D61DC793C300BB190B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC090D51DC793C300BB190B /* ViewController.swift */; };
 		2EC090D91DC793C300BB190B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC090D71DC793C300BB190B /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		2E5780E11DC92E8600B5397B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "View Controllers/LoginViewController.swift"; sourceTree = "<group>"; };
 		2E5780E31DC92F1400B5397B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = "View Controllers/RegisterViewController.swift"; sourceTree = "<group>"; };
 		2E5780E51DC92F2100B5397B /* BudgetListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BudgetListViewController.swift; path = "View Controllers/BudgetListViewController.swift"; sourceTree = "<group>"; };
+		2E6522D11DCA806500CF5705 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Category.swift; path = Models/Category.swift; sourceTree = "<group>"; };
 		2EC090D01DC793C300BB190B /* EFAB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFAB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC090D31DC793C300BB190B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EC090D51DC793C300BB190B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			children = (
 				2EE111B21DC7C88F004ED0A1 /* Test.swift */,
 				2E5497ED1DCA224A0049E089 /* User.swift */,
+				2E6522D11DCA806500CF5705 /* Category.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				2EC090D41DC793C300BB190B /* AppDelegate.swift in Sources */,
 				2EE111BC1DC7CCB9004ED0A1 /* Constants.swift in Sources */,
 				2E5780E61DC92F2100B5397B /* BudgetListViewController.swift in Sources */,
+				2E6522D21DCA806500CF5705 /* Category.swift in Sources */,
 				2ECDF8811DCA6DF600D68F04 /* AddCategoryViewController.swift in Sources */,
 				2E5497EE1DCA224A0049E089 /* User.swift in Sources */,
 				2ECDF8831DCA71EC00D68F04 /* ExpenseViewController.swift in Sources */,
