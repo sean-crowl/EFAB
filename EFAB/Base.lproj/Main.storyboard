@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AI7-AS-Y5Y">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,11 +18,17 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="jL7-Zj-C1t"/>
+                    <navigationItem key="navigationItem" id="jL7-Zj-C1t">
+                        <barButtonItem key="leftBarButtonItem" image="logout" id="Hwm-JE-fU4">
+                            <connections>
+                                <action selector="logoutTapped:" destination="BYZ-38-t0r" id="DCY-Gh-3Gm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="2IF-JO-PpO" kind="presentation" identifier="PresentLogin" id="HP7-X9-dbd"/>
                         <segue destination="2IF-JO-PpO" kind="presentation" identifier="PresentLoginNoAnimation" animates="NO" id="TGK-qL-hGg"/>
@@ -59,6 +65,9 @@
             <point key="canvasLocation" x="188" y="123"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logout" width="25" height="25"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="TGK-qL-hGg"/>
     </inferredMetricsTieBreakers>

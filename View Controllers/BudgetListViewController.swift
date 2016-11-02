@@ -24,6 +24,15 @@ class BudgetListViewController: UIViewController {
         }
     }
 
+    
+    // MARK: - IBActions
+    @IBAction func logoutTapped(_ sender: Any) {
+        UserStore.shared.logout {
+            self.performSegue(withIdentifier: "PresentLogin", sender: self)
+        }
+    }
+    
+    
     /*
     // MARK: - Navigation
 
