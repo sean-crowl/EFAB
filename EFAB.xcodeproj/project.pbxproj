@@ -27,6 +27,7 @@
 		2ECDF8831DCA71EC00D68F04 /* ExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDF8821DCA71EC00D68F04 /* ExpenseViewController.swift */; };
 		2EDD901D1DC8D596000448F4 /* WebServicesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDD901C1DC8D596000448F4 /* WebServicesExtension.swift */; };
 		2EDD901F1DC8D5E8000448F4 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDD901E1DC8D5E8000448F4 /* WebServices.swift */; };
+		2EE082131DCBC18900114AAE /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE082121DCBC18900114AAE /* Expense.swift */; };
 		2EE111AE1DC7BB9D004ED0A1 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE111AD1DC7BB9D004ED0A1 /* NetworkModel.swift */; };
 		2EE111B31DC7C88F004ED0A1 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE111B21DC7C88F004ED0A1 /* Test.swift */; };
 		2EE111BC1DC7CCB9004ED0A1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE111BB1DC7CCB9004ED0A1 /* Constants.swift */; };
@@ -55,6 +56,7 @@
 		2ECDF8821DCA71EC00D68F04 /* ExpenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExpenseViewController.swift; path = "View Controllers/ExpenseViewController.swift"; sourceTree = "<group>"; };
 		2EDD901C1DC8D596000448F4 /* WebServicesExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebServicesExtension.swift; path = Networking/WebServicesExtension.swift; sourceTree = "<group>"; };
 		2EDD901E1DC8D5E8000448F4 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebServices.swift; path = Networking/WebServices.swift; sourceTree = "<group>"; };
+		2EE082121DCBC18900114AAE /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Expense.swift; path = Models/Expense.swift; sourceTree = "<group>"; };
 		2EE111AD1DC7BB9D004ED0A1 /* NetworkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkModel.swift; path = Networking/NetworkModel.swift; sourceTree = "<group>"; };
 		2EE111B21DC7C88F004ED0A1 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Test.swift; path = Models/Test.swift; sourceTree = "<group>"; };
 		2EE111BB1DC7CCB9004ED0A1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Components/Constants.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				2EE111B21DC7C88F004ED0A1 /* Test.swift */,
 				2E5497ED1DCA224A0049E089 /* User.swift */,
 				2E6522D11DCA806500CF5705 /* Category.swift */,
+				2EE082121DCBC18900114AAE /* Expense.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				2E5497F51DCA67AE0049E089 /* CategoryCell.swift in Sources */,
 				2EDD901F1DC8D5E8000448F4 /* WebServices.swift in Sources */,
 				2EE111B31DC7C88F004ED0A1 /* Test.swift in Sources */,
+				2EE082131DCBC18900114AAE /* Expense.swift in Sources */,
 				2E5780E21DC92E8600B5397B /* LoginViewController.swift in Sources */,
 				2EDD901D1DC8D596000448F4 /* WebServicesExtension.swift in Sources */,
 				2EC090D41DC793C300BB190B /* AppDelegate.swift in Sources */,
