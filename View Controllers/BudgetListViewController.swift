@@ -185,15 +185,22 @@ class BudgetListViewController: UIViewController {
         }
     }
     
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
+    // MARK: - Navigation
+    // Step 16: shouldPerformSegueWithIdentifier prepareForSegue
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if let cell = sender as? UITableViewCell, let indexPath = tableView.indexPath(for: cell) , (indexPath as NSIndexPath).row == getCategories().count {
+            return false
+        }
+        return true
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowAddExpense" {
+            let vc = segue.destination as! ExpenseViewController
+            let cell = sender as! CategoryCell
+            vc.category = cell.category
+        }
+    }
     
 }
 
